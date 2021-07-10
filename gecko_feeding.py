@@ -107,7 +107,7 @@ last_price = offset_ion_price
 
 t_offset = threading.Thread(target=reset_offset, daemon=True)
 t_offset.start()
-print("----------------------STARTING PRICE FEEDER--------------------")
+print("----------------------STARTING PRICE FEEDER  FROM COINGECKO--------------------")
 while(1):
     print("\n\t", time.ctime(),"\n")
     for crypt in cryptos:
